@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema 
+	id="Enumerations" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xerces="http://xerces.apache.org" 
+	xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+	vc:minVersion="1.1"
+>
+	<xs:include schemaLocation="County.xsd"/>
+	<xs:include schemaLocation="Enumerations.xsd"/>
+	<xs:include schemaLocation="MetalTypeForm.xsd"/>
+	<xs:include schemaLocation="TypeMakeModelCode.xsd"/>
+	<xs:include schemaLocation="VehicleColorCode.xsd"/>
+	<xs:element name="Transaction" nillable="true" type="Transaction"/>
+	<xs:complexType name="Transaction">
+		<xs:all>
+			<xs:element minOccurs="1" maxOccurs="1" name="Details" type="ArrayOfDetail"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="Seller" type="Seller"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="CertificateId" type="xs:int"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="SaleDate" type="xs:date"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="DealerInvoice" type="xs:string"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="DeliveryMethod" type="DeliveryTypes"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="IsRejected" type="xs:boolean"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="Agreement" type="TransactionAgreement"/>
+			<!-- Used for display only. -->
+			<xs:element minOccurs="0" maxOccurs="1" name="FileId" type="xs:int"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="FileSequenceNumber" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="Remarks" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="CreateDate" type="xs:dateTime"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="ModifyDate" type="xs:dateTime"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="UsrAccountId" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="HasValidationError" type="xs:boolean"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="HasValidationWarning" type="xs:boolean"/>
+		</xs:all>
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="TransactionAgreement">
+		<xs:attribute name="signed" type="xs:boolean" use="required"/>
+		<xs:attribute name="legalOwner" type="xs:boolean" use="required"/>
+		<xs:attribute name="lawfulSeller" type="xs:boolean" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfDetail">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="unbounded" name="TransactionDetail" nillable="true" type="TransactionDetail"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TransactionDetail">
+		<xs:all>
+			<xs:element minOccurs="0" maxOccurs="1" name="MetalWeight" type="TransactionDetailWeight"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="MetalTypeForm" type="MetalTypeForm"/>
+			<!--<xs:element minOccurs="0" maxOccurs="1" name="MetalPartCount" type="xs:int"/> Commented out by Marcin (12-15-2021) - upload version 2.0-->
+			<xs:element minOccurs="0" maxOccurs="1" name="Ccid" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="HasTradeLicense" type="xs:boolean"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="IsExplosive" type="xs:boolean"/>
+			<xs:element name="MetalDescription" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<!-- Pattern value changed by Marcin (12-15-2021) - changed all the xs:pattern in Transaction.xsd file epr new XSD version -->
+						<xs:pattern value="[a-z|A-Z|0-9|\s-_#/]*"/>
+						<!-- Pattern value changed by Santosh (06.25.2009) -->
+						<!--	<xs:pattern value="^[a-z|A-Z|0-9|\s\-_\#]*$" />-->
+						<!--<xs:pattern value="^$" />-->
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<!-- Used for display only. -->
+			<xs:element minOccurs="0" maxOccurs="1" name="MetalType" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="MetalForm" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="MetalTypeLiteral" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="MetalFormLiteral" type="xs:string"/>
+		</xs:all>
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+		<xs:assert test="not(MetalTypeForm = 'REGULATEDMETALS-CATALYTIC_CONVERTER') or Ccid" xerces:message="Ccid is required for Catalytic Converters"/>
+		<xs:assert test="(MetalTypeForm = 'REGULATEDMETALS-CATALYTIC_CONVERTER') or MetalWeight" xerces:message="Metal Weight is required"/>
+	</xs:complexType>
+	<xs:complexType name="TransactionDetailWeight">
+		<xs:attribute name="lbs" type="xs:int" use="optional"/>
+		<xs:attribute name="oz" type="xs:int" use="optional"/>
+		<!--Used for display only.-->
+		<xs:attribute name="weightAsString" type="xs:string" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="Seller">
+		<xs:all>
+			<xs:element minOccurs="1" maxOccurs="1" name="Identification" type="SellerIdentification"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="Business" type="SellerBusiness"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="Name" type="SellerName"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="Address" type="SellerAddress"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="Vehicle" type="SellerVehicle"/>
+		</xs:all>
+		<!-- Used for display only. -->
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="SellerIdentification">
+		<xs:attribute name="idt" type="IdTypes" use="required"/>
+		<xs:attribute name="issuer" type="PlaceCode" use="required"/>
+		<!--<xs:attribute name="idn" use="optional">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="^[a-z|A-Z|0-9]*$">
+          </xs:pattern>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>-->
+		<xs:attribute name="idn" use="required">
+			<!-- Change #1-->
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[a-z|A-Z|0-9]+">
+						<!--<xs:pattern value="^[a-z|A-Z|0-9]+$"> Change #2 - Marcin (12-15-2021)-->
+					</xs:pattern>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="SellerBusiness">
+		<xs:all>
+			<xs:element minOccurs="0" maxOccurs="1" name="Name"/>
+		</xs:all>
+		<!-- Used for display only. -->
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="SellerName">
+		<xs:attribute name="f" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[a-z|A-Z|\s-]+"/>
+					<!--<xs:pattern value="^[a-z|A-Z|\s\-]+$"></xs:pattern> Marcin (12-15-2021)-->
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="l" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[a-z|A-Z|\s-]+"/>
+					<!--<xs:pattern value="^[a-z|A-Z|\s\-]+$"></xs:pattern> Marcin (12-15-2021)-->
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="m" type="xs:string" use="optional"/>
+		<!-- Used for display only. -->
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="SellerAddress">
+		<xs:all>
+			<xs:element minOccurs="1" maxOccurs="1" name="Street">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z|A-Z|0-9|\s#,.]+">
+							<!--<xs:pattern value="^[a-z|A-Z|0-9|\s\/\#\,\.]+$"> Marcin (12-15-2021)-->
+						</xs:pattern>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1" name="City">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z|A-Z|\s]+">
+							<!--<xs:pattern value="^[a-z|A-Z|\s]+$"> Marcin (12-15-2021)-->
+						</xs:pattern>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1" name="State" type="PlaceCode"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="Zip">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="\d{5}([\-]\d{4})?">
+							<!--<xs:pattern value="^\d{5}([\-]\d{4})?$"> Marcin (12-15-2021)-->
+						</xs:pattern>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element minOccurs="1" maxOccurs="1" name="County" type="CountyCode"/>
+		</xs:all>
+		<!-- Used for display only. -->
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="SellerVehicle">
+		<xs:all>
+			<xs:element minOccurs="1" maxOccurs="1" name="Plate" type="VehiclePlate"/>
+			<xs:element minOccurs="1" maxOccurs="1" name="TypeMakeModel" type="TypeMakeModelCode"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="Color" type="VehicleColorCode"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="IsModelExist" type="xs:boolean"/>
+			<!-- Used for display only. -->
+			<xs:element minOccurs="0" maxOccurs="1" name="VehicleLiteral" type="xs:string"/>
+			<xs:element minOccurs="0" maxOccurs="1" name="ColorLiteral" type="xs:string"/>
+		</xs:all>
+		<!-- Used for display only. -->
+		<xs:attribute name="id" type="xs:int" use="optional"/>
+	</xs:complexType>
+	<xs:complexType name="VehiclePlate">
+		<xs:attribute name="plateNo">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[a-z|A-Z|0-9]+"/>
+					<!--<xs:pattern value="^[a-z|A-Z|0-9]+$"></xs:pattern> Marcin (12-15-2021)-->
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="issuer" type="VehiclePlatePlaceCode"/>
+	</xs:complexType>
+</xs:schema>

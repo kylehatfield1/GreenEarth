@@ -1,0 +1,349 @@
+METAL FORM CODE                            METAL FORM LITERAL
+_________________________________________________________________
+ALUMINUM-1                                            #1
+ALUMINUM-1100                                         1100
+ALUMINUM-1100_BUS_BAR                                 1100 BUS BAR
+ALUMINUM-1100_FINSTOCK                                1100 FINSTOCK
+ALUMINUM-2                                            #2
+ALUMINUM-2024                                         2024
+ALUMINUM-2024_CLIPS                                   2024 CLIPS
+ALUMINUM-3                                            #3
+ALUMINUM-3000                                         3000
+ALUMINUM-3003                                         3003
+ALUMINUM-5000                                         5000
+ALUMINUM-5052                                         5052
+ALUMINUM-5052_CLIPS                                   5052 CLIPS
+ALUMINUM-5086                                         5086
+ALUMINUM-5454                                         5454
+ALUMINUM-6000                                         6000
+ALUMINUM-6061                                         6061
+ALUMINUM-6061_BARE                                    6061 BARE
+ALUMINUM-6061_CLEAN                                   6061 CLEAN
+ALUMINUM-6061_DIRTY                                   6061 DIRTY
+ALUMINUM-6061_EXTRUSION                               6061 EXTRUSION
+ALUMINUM-6061_FRAME                                   6061 FRAME
+ALUMINUM-6061_PAINTED                                 6061 PAINTED
+ALUMINUM-6061_PIPE                                    6061 PIPE
+ALUMINUM-6061_PLATE                                   6061 PLATE
+ALUMINUM-6061_TUBING                                  6061 TUBING
+ALUMINUM-6062                                         6062
+ALUMINUM-6063                                         6063
+ALUMINUM-6063_BARE_EXTRUSION                          6063 BARE EXTRUSION
+ALUMINUM-6063_DIRTY                                   6063 DIRTY
+ALUMINUM-6063_EXTRUSION                               6063 EXTRUSION
+ALUMINUM-6063_EXTRUSION_FRAMES                        6063 EXTRUSION FRAMES
+ALUMINUM-6063_EXTRUSION_FRAMES_DIRTY                  6063 EXTRUSION FRAMES DIRTY
+ALUMINUM-6063_PAINTED                                 6063 PAINTED
+ALUMINUM-7000_EXTRUSION                               7000 EXTRUSION
+ALUMINUM-7072_FINSTOCK                                7072 FINSTOCK
+ALUMINUM-7075                                         7075
+ALUMINUM-AC_COIL                                      AC COIL
+ALUMINUM-AC_UNIT                                      AC UNIT
+ALUMINUM-ACSR                                         ACSR
+ALUMINUM-ACSR_INSULATED                               ACSR INSULATED
+ALUMINUM-AEROSOL_CAN                                  AEROSOL CAN
+ALUMINUM-ALTERNATOR                                   ALTERNATOR
+ALUMINUM-AUTO_CAST                                    AUTO CAST
+ALUMINUM-AUTO_TRANSMISSION                            AUTO TRANSMISSION
+ALUMINUM-BAKING_PAN                                   BAKING PAN
+ALUMINUM-BAR                                          BAR
+ALUMINUM-BENCH                                        BENCH
+ALUMINUM-BILLETS                                      BILLETS
+ALUMINUM-BLEACHERS                                    BLEACHERS
+ALUMINUM-BOAT                                         BOAT
+ALUMINUM-BORINGS                                      BORINGS
+ALUMINUM-BREAKAGE                                     BREAKAGE
+ALUMINUM-BUMPER                                       BUMPER
+ALUMINUM-CABLE                                        CABLE
+ALUMINUM-CABLE_BOX                                    CABLE BOX
+ALUMINUM-CARBURETOR                                   CARBURETOR
+ALUMINUM-CAST                                         CAST
+ALUMINUM-CAST_FIXTURE                                 CAST FIXTURE
+ALUMINUM-CAST_MIXED                                   CAST MIXED
+ALUMINUM-CAST_PARTS                                   CAST PARTS
+ALUMINUM-CATV                                         CATV
+ALUMINUM-CATV_BARE_CABLE                              CATV BARE CABLE
+ALUMINUM-CATV_BARE_WIRE                               CATV BARE WIRE
+ALUMINUM-CATV_BLACK_WIRE                              CATV BLACK WIRE
+ALUMINUM-CATV_CABLE                                   CATV CABLE
+ALUMINUM-CATV_FLAKES                                  CATV FLAKES
+ALUMINUM-CATV_INSULATED                               CATV INSULATED
+ALUMINUM-CATV_WIRE                                    CATV WIRE
+ALUMINUM-CHAIN_LINK_FENCE                             CHAIN LINK FENCE
+ALUMINUM-CHAIR                                        CHAIR
+ALUMINUM-CLEAN                                        CLEAN
+ALUMINUM-CLIP                                         CLIP
+ALUMINUM-COIL                                         COIL
+ALUMINUM-COOKWARE                                     COOKWARE
+ALUMINUM-COOLER                                       COOLER
+ALUMINUM-CORE                                         CORE
+ALUMINUM-DIE_CAST                                     DIE CAST
+ALUMINUM-DIE_CAST_BREAKAGE                            DIE CAST BREAKAGE
+ALUMINUM-DIESEL_PISTONS                               DIESEL PISTONS
+ALUMINUM-DIRTY                                        DIRTY
+ALUMINUM-DOOR                                         DOOR
+ALUMINUM-DRILL_BITS                                   DRILL BITS
+ALUMINUM-DROSS                                        DROSS
+ALUMINUM-EC_WIRE                                      EC WIRE
+ALUMINUM-EC_WIRE_ENAMELED                             EC WIRE ENAMELED
+ALUMINUM-EXTRUSION                                    EXTRUSION
+ALUMINUM-FENCING                                      FENCING
+ALUMINUM-FINSTOCK                                     FINSTOCK
+ALUMINUM-FITTING                                      FITTING
+ALUMINUM-FLAG_POLE                                    FLAG POLE
+ALUMINUM-FOIL                                         FOIL
+ALUMINUM-FRAME                                        FRAME
+ALUMINUM-GATE                                         DRAIN GATES
+ALUMINUM-GUAGE                                        GUAGE
+ALUMINUM-GUTTER                                       GUTTER
+ALUMINUM-HAND_RAILS                                   HAND RAILS
+ALUMINUM-HEATER_CORE                                  HEATER CORE
+ALUMINUM-HEAVY                                        HEAVY
+ALUMINUM-HUBCAP                                       HUBCAP
+ALUMINUM-INGOTS                                       INGOTS
+ALUMINUM-INSULATED_WIRE                               INSULATED WIRE
+ALUMINUM-IRRIGATION_PIPE                              IRRIGATION PIPE
+ALUMINUM-LADDER                                       LADDER
+ALUMINUM-LIGHT                                        LIGHT
+ALUMINUM-LIGHT_FIXTURE                                LIGHT FIXTURE
+ALUMINUM-LIGHT_POLE                                   LIGHT POLE
+ALUMINUM-LITHOPLATE                                   LITHOPLATE
+ALUMINUM-MINIBLINDS                                   MINI BLINDS
+ALUMINUM-MIXED                                        MIXED
+ALUMINUM-MIXED_CLIPS                                  MIXED CLIPS
+ALUMINUM-MIXED_TO_SHREDDER                            MIXED TO SHREDDER
+ALUMINUM-MOTOR                                        MOTOR
+ALUMINUM-MOTOR_PART                                   MOTOR PART
+ALUMINUM-NEOPRENE                                     NEOPRENE
+ALUMINUM-NEOPRENE_ACSR                                NEOPRENE ACSR
+ALUMINUM-NEOPRENE_INSULATION                          NEOPRENE INSULATION
+ALUMINUM-PAINTED_CLIP                                 PAINTED CLIP
+ALUMINUM-PAINTED_SIDING                               PAINTED SIDING
+ALUMINUM-PAN                                          PAN
+ALUMINUM-PAPERBACK                                    PAPERBACK
+ALUMINUM-PIPE                                         PIPE
+ALUMINUM-PISTONS                                      PISTONS
+ALUMINUM-PISTONS_2                                    PISTONS #2
+ALUMINUM-PLATE                                        PLATE
+ALUMINUM-PUNCHINGS                                    PUNCHINGS
+ALUMINUM-RADIATOR                                     RADIATOR
+ALUMINUM-REEFER                                       REEFER
+ALUMINUM-RIM                                          RIM
+ALUMINUM-RIMS                                         RIMS
+ALUMINUM-RIVET                                        RIVET
+ALUMINUM-ROMEX_INSULATED                              ROMEX INSULATED
+ALUMINUM-SADDLE                                       SADDLE
+ALUMINUM-SCAFFOLDING                                  SCAFFOLDING
+ALUMINUM-SCRAP                                        SCRAP
+ALUMINUM-SCREEN                                       SCREEN
+ALUMINUM-SEAT                                         SEAT
+ALUMINUM-SHAVING                                      SHAVING
+ALUMINUM-SHEAR                                        SHEAR
+ALUMINUM-SHEET                                        SHEET
+ALUMINUM-SHEET_FRAME                                  SHEET FRAME
+ALUMINUM-SHEET_GUTTER                                 SHEET GUTTER
+ALUMINUM-SHEET_MIXED                                  SHEET MIXED
+ALUMINUM-SHEET_PIPE                                   SHEET PIPE
+ALUMINUM-SHEET_SIDING                                 SHEET SIDING
+ALUMINUM-SHELVING                                     SHELVING
+ALUMINUM-SHOPPING_CART                                SHOPPING CART
+ALUMINUM-SIDING                                       SIDING
+ALUMINUM-SIGN                                         SIGN
+ALUMINUM-SOWS                                         SOWS
+ALUMINUM-STANDARD_TRANSMISSION                        STANDARD TRANSMISSION
+ALUMINUM-STARTER                                      STARTER
+ALUMINUM-STEPS                                        STEPS
+ALUMINUM-STRAND_FILLED_URD                            STRAND FILLED URD
+ALUMINUM-TANK                                         TANK
+ALUMINUM-TRANSFORMER                                  TRANSFORMER
+ALUMINUM-TRANSFORMER_CORE                             TRANSFORMER CORE
+ALUMINUM-TRANSMISSION                                 TRANSMISSION
+ALUMINUM-TUBING                                       TUBING
+ALUMINUM-TURNINGS                                     TURNINGS
+ALUMINUM-URD                                          URD
+ALUMINUM-URD_WIRE                                     URD WIRE
+ALUMINUM-VALVE                                        VALVE
+ALUMINUM-VERTICAL_BLINDS                              VERTICAL BLINDS
+ALUMINUM-WHEEL                                        WHEEL
+ALUMINUM-WHEEL_WEIGHT                                 WHEEL WEIGHT
+ALUMINUM-WINDOW_FRAME                                 WINDOW FRAME
+ALUMINUM-WIRE                                         WIRE
+BRASS-ADMIRALTY                                       ADMIRALTY
+BRASS-ADMIRALTY_CONDENSOR_TUBE                        ADMIRALTY CONDENSOR TUBE
+BRASS-BORINGS                                         BORINGS
+BRASS-BREAKAGE                                        BREAKAGE
+BRASS-CLEAN                                           CLEAN
+BRASS-CLIP                                            CLIP
+BRASS-COCKS__FAUCET                                   COCKS  FAUCET
+BRASS-DECORATIVE_PLAQUE                               DECORATIVE PLAQUE
+BRASS-DIE_CAST                                        DIE CAST
+BRASS-DIRTY                                           DIRTY
+BRASS-ELECTRICAL                                      ELECTRICAL
+BRASS-ENCASED_SIDES                                   ENCASED SIDES
+BRASS-FAUCET                                          FAUCET
+BRASS-FINS                                            FINS
+BRASS-FINSTOCK                                        FINSTOCK
+BRASS-FITTING                                         FITTING
+BRASS-GEAR                                            GEAR
+BRASS-GEAR_METAL                                      GEAR METAL
+BRASS-HEATER_CORE                                     HEATER CORE
+BRASS-METAL_BORINGS                                   METAL BORINGS
+BRASS-METAL_SOLIDS                                    METAL SOLIDS
+BRASS-MINOX                                           MINOX
+BRASS-MIXED                                           MIXED
+BRASS-NAME_PLAQUE                                     NAME PLAQUE
+BRASS-NOZZLE                                          NOZZLE
+BRASS-PIPE                                            PIPE
+BRASS-PLUMBING                                        PLUMBING
+BRASS-POWER_INVERTER                                  Power Inverter
+BRASS-RADIATOR                                        RADIATOR
+BRASS-RED                                             RED
+BRASS-RED_BORINGS                                     RED BORINGS
+BRASS-RED_FITTINGS                                    RED FITTINGS
+BRASS-RED_TURNINGS                                    RED TURNINGS
+BRASS-RED_WATER_METER                                 RED WATER METER
+BRASS-REFINERY                                        REFINERY
+BRASS-REFINERY_BORINGS                                REFINERY BORINGS
+BRASS-RIFLE_SHELLS                                    RIFLE SHELLS
+BRASS-ROD                                             ROD
+BRASS-ROD_BORINGS                                     ROD BORINGS
+BRASS-ROD_ENDS                                        ROD ENDS
+BRASS-ROD_SOLIDS                                      ROD SOLIDS
+BRASS-ROD_TURNINGS                                    ROD TURNINGS
+BRASS-SCREEN                                          SCREEN
+BRASS-SHAVINGS                                        SHAVINGS
+BRASS-SHELLS                                          SHELLS
+BRASS-SOLID                                           SOLID
+BRASS-TUBE                                            TUBE
+BRASS-TURNINGS                                        TURNINGS
+BRASS-VALVE                                           VALVE
+BRASS-WATER_METER                                     WATER METER
+BRASS-YELLOW                                          YELLOW
+BRASS-YELLOW_BORINGS                                  YELLOW BORINGS
+BRASS-YELLOW_FIGURES                                  YELLOW FIGURES
+BRASS-YELLOW_FITTINGS                                 YELLOW FITTINGS
+BRASS-YELLOW_MIX                                      YELLOW MIX
+BRASS-YELLOW_PIPE                                     YELLOW PIPE
+BRASS-YELLOW_SEMI                                     YELLOW SEMI
+BRASS-YELLOW_SLAG                                     YELLOW SLAG
+BRASS-YELLOW_TURNINGS                                 YELLOW TURNINGS
+BRASS-YELLOW_VALVE_FITTING                            YELLOW VALVE FITTING
+BRASS-ZIPPER                                          ZIPPER
+BRONZE-BORINGS                                        BORINGS
+BRONZE-MARKER                                         MARKER
+BRONZE-MEMORIAL                                       MEMORIAL
+BRONZE-PIPE                                           PIPE
+BRONZE-PLAQUE                                         PLAQUE
+BRONZE-RADIATOR                                       RADIATOR
+BRONZE-RECEPTACLE                                     RECEPTACLE
+BRONZE-STATUARY                                       STATUARY
+BRONZE-STATUE                                         STATUE
+BRONZE-TURNINGS                                       TURNINGS
+BRONZE-VALVE                                          VALVE
+BRONZE-VASE                                           VASE
+COPPER-1                                              #1
+COPPER-2                                              #2
+COPPER-3                                              #3
+COPPER-ALTERNATOR_BEARING                             ALTERNATOR BEARING
+COPPER-ASH                                            ASH
+COPPER-BAILING_WIRE                                   BAILING WIRE
+COPPER-BAILING_WIRE_1                                 #1 BAILING WIRE
+COPPER-BALLAST                                        BALLAST
+COPPER-BARE_BRIGHT                                    BARE BRIGHT
+COPPER-BARE_BRIGHT_TUBING                             BARE BRIGHT TUBING
+COPPER-BARE_BRIGHT_WIRE                               BARE BRIGHT WIRE
+COPPER-BARE_BRIGHT_WIRE_1                             #1 BARE BRIGHT WIRE
+COPPER-BEARING                                        BEARING
+COPPER-BEARING_SCRAP                                  BEARING SCRAP
+COPPER-BURNT_WIRE                                     BURNT WIRE
+COPPER-BUS_BAR                                        BUS BAR
+COPPER-BUS_STOCK_1                                    #1 BUS STOCK
+COPPER-CABLE                                          CABLE
+COPPER-CHOPS_1                                        #1 CHOPS
+COPPER-CHRISTMAS_LIGHTS                               CHRISTMAS LIGHTS
+COPPER-CLAD_WIRE                                      CLAD WIRE
+COPPER-CLIP                                           CLIP
+COPPER-COIL                                           COIL
+COPPER-COMPRESSOR                                     COMPRESSOR
+COPPER-END                                            END
+COPPER-FINS                                           FINS
+COPPER-FITTING                                        FITTING
+COPPER-GREEN_WIRE                                     GREEN WIRE
+COPPER-GUTTER                                         GUTTER
+COPPER-HARNESS                                        HARNESS
+COPPER-HEATER_CORE                                    HEATER CORE
+COPPER-HELIX_CABLE                                    HELIX CABLE
+COPPER-INSULATED_BOX_WIRE                             INSULATED BOX WIRE
+COPPER-INSULATED_CABLE                                INSULATED CABLE
+COPPER-INSULATED_EXTENSION_CORD_2                     #2 INSULATED EXTENSION CORD
+COPPER-INSULATED_WIRE                                 INSULATED WIRE
+COPPER-INSULATED_WIRE_1                               #1 INSULATED WIRE
+COPPER-INSULATED_WIRE_2                               #2 INSULATED WIRE
+COPPER-LIGHTING                                       LIGHTING
+COPPER-MENU                                           MENU
+COPPER-MIXED                                          MIXED
+COPPER-MIXED_1                                        #1 MIXED
+COPPER-MIXED_2                                        #2 MIXED
+COPPER-MOTOR                                          MOTOR
+COPPER-NEEDLES                                        NEEDLES
+COPPER-NEEDLES_WITH_PAPER                             NEEDLES WITH PAPER
+COPPER-NON_INSULATED_WIRE_1                           #1 NON INSULATED WIRE
+COPPER-PIPE                                           PIPE
+COPPER-PIPE_1                                         #1 PIPE
+COPPER-PIPE_2                                         #2 PIPE
+COPPER-PLATE                                          PLATE
+COPPER-POWER_INVERTER                                 Power Inverter
+COPPER-RACK                                           RACK
+COPPER-RADIATOR                                       RADIATOR
+COPPER-REDA                                           REDA
+COPPER-REEFER                                         REEFER
+COPPER-REEFER_ENDS                                    REEFER ENDS
+COPPER-REFINERY                                       REFINERY
+COPPER-REFINERY_1                                     REFINERY #1
+COPPER-ROMEX                                          ROMEX
+COPPER-SHEET                                          SHEET
+COPPER-STARTER_BEARING                                STARTER BEARING
+COPPER-STATOR_RING                                    STATOR RING
+COPPER-STRIPPABLE_WIRE_1                              #1 STRIPPABLE WIRE
+COPPER-TRANSFORMER                                    TRANSFORMER
+COPPER-TRANSFORMER_CORE                               TRANSFORMER CORE
+COPPER-TUBING                                         TUBING
+COPPER-TUBING_1                                       #1 TUBING
+COPPER-TUBING_2                                       #2 TUBING
+COPPER-TURNINGS                                       TURNINGS
+COPPER-URD_CABLE                                      URD CABLE
+COPPER-WIRE                                           WIRE
+COPPER-WIRE_1                                         #1 WIRE
+COPPER-WIRE_2                                         #2 WIRE
+COPPER-WIRE_INSULATED_LOW_GRADE                       WIRE INSULATED LOW GRADE
+COPPER-WIRE_LOW_RECOVERY                              WIRE LOW RECOVERY
+LEADMATERIAL-GENERAL_PURPOSE_BATTERY                  General Purpose Battery
+LEADMATERIAL-LEAD_NOT_A_BATTERY                       LEAD, NOT A BATTERY
+LEADMATERIAL-SPECIAL_COMMERCIAL_INDUSTRIAL_USE        Special, Commercial/Industrial Use
+LEADMATERIAL-SPECIAL_GOVERNMENTAL_ENTITY_USE          Special, Governmental Entity Use
+LEADMATERIAL-SPECIAL_LEAD_PLATES                      Special, Lead Plates
+LEADMATERIAL-SPECIAL_OTHER_DISTINGUISHING_FEATURES    Special, Other Distinguishing Features
+LEADMATERIAL-SPECIAL_UNIQUELY_MARKED                  Special, Uniquely Marked
+REGULATEDMETALS-AC_CONDENSING_COIL                    AC CONDENSING COIL
+REGULATEDMETALS-AC_EVAPORATOR_COIL                    AC EVAPORATOR COIL
+REGULATEDMETALS-ALUMINUM_CONTAINER                    ALUMINUM CONTAINER
+REGULATEDMETALS-BACK_FLOW_VALVE                       BACK FLOW VALVE
+REGULATEDMETALS-BEER_KEG                              BEER KEG
+REGULATEDMETALS-CATALYTIC_CONVERTER                   CATALYTIC CONVERTER
+REGULATEDMETALS-COMMERCIAL_GRADE_LEAD_BATTERY         Commercial Grade Lead Battery
+REGULATEDMETALS-COMPRESSOR                            COMPRESSOR
+REGULATEDMETALS-DRAIN_GATE                            DRAIN GATE
+REGULATEDMETALS-FIRE_HYDRANT_OPERATING_NUT            FIRE HYDRANT OPERATING NUT
+REGULATEDMETALS-GUARDRAIL                             GUARDRAIL
+REGULATEDMETALS-HISTORICAL_MARKER                     HISTORICAL MARKER
+REGULATEDMETALS-LEAD_ACID_BATTERY                     Lead-Acid Battery
+REGULATEDMETALS-MANHOLE_COVER                         MANHOLE COVER
+REGULATEDMETALS-METAL_CYLINDER                        METAL CYLINDER
+REGULATEDMETALS-RAILROAD_EQUIPMENT                    RAILROAD EQUIPMENT
+REGULATEDMETALS-REEFER                                REEFER
+REGULATEDMETALS-SAFES                                 SAFES
+REGULATEDMETALS-STAINLESS_STEEL_CONTAINER             STAINLESS STEEL CONTAINER
+REGULATEDMETALS-STREET_SIGNS                          STREET SIGNS
+REGULATEDMETALS-TRANSMISSION_WIRE                     TRANSMISSION WIRE
+REGULATEDMETALS-UNUSED_REBAR                          UNUSED REBAR
+REGULATEDMETALS-UTILITY_STRUCTURE                     UTILITY STRUCTURE

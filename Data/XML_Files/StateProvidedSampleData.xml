@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<TransactionBatch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TransactionBatch.xsd">
+	<Transactions>
+		<Transaction>
+			<Details>
+				<TransactionDetail>
+					<MetalWeight lbs="2"/>
+					<MetalTypeForm>ALUMINUM-AUTO_TRANSMISSION</MetalTypeForm>
+					<HasTradeLicense>true</HasTradeLicense>
+					<IsExplosive>true</IsExplosive>
+					<MetalDescription>Description 1/2</MetalDescription>
+				</TransactionDetail>
+				<TransactionDetail>
+					<MetalTypeForm>REGULATEDMETALS-CATALYTIC_CONVERTER</MetalTypeForm>
+					<Ccid>MREMMYYYY1234</Ccid>
+					<HasTradeLicense>true</HasTradeLicense>
+					<IsExplosive>false</IsExplosive>
+					<MetalDescription>Description 2/2</MetalDescription>
+				</TransactionDetail>
+			</Details>
+			<Seller>
+				<Identification idt="DL" issuer="TX" idn="13245678"/>
+				<Business>
+					<Name>JD Metals</Name>
+				</Business>
+				<Name l="Doe" f="John" m=""/>
+				<Address>
+					<Street>123 Test Drive</Street>
+					<City>Austin</City>
+					<State>TX</State>
+					<Zip>78731</Zip>
+					<County>TRAVIS</County>
+				</Address>
+				<Vehicle>
+					<Plate plateNo="ABC123" issuer="TX"/>
+					<TypeMakeModel>AUTO-FORD-F15</TypeMakeModel>
+					<Color>BGE</Color>
+					<IsModelExist>true</IsModelExist>
+				</Vehicle>
+			</Seller>
+			<CertificateId>100000</CertificateId>
+			<SaleDate>2009-02-10</SaleDate>
+			<DealerInvoice>INV0001</DealerInvoice>
+			<DeliveryMethod>Automobile</DeliveryMethod>
+			<Agreement signed="true" legalOwner="true" lawfulSeller="false"/>
+		</Transaction>
+		<Transaction>
+			<Details>
+				<TransactionDetail>
+					<MetalWeight lbs="1" oz="15"/>
+					<MetalTypeForm>COPPER-INSULATED_WIRE</MetalTypeForm>
+				</TransactionDetail>
+			</Details>
+			<Seller>
+				<Identification idt="DL" issuer="TX" idn="6789065"/>
+				<Business>
+					<Name>ABC Metals</Name>
+				</Business>
+				<Name l="Garcia" f="Jose" m=""/>
+				<Address>
+					<Street>1220 plains</Street>
+					<City>Austin</City>
+					<State>TX</State>
+					<Zip>78731</Zip>
+					<County>TRAVIS</County>
+				</Address>
+			</Seller>
+			<CertificateId>100000</CertificateId>
+			<SaleDate>2009-02-10</SaleDate>
+			<DealerInvoice>INV0002</DealerInvoice>
+			<DeliveryMethod>Bicycle</DeliveryMethod>
+			<Agreement signed="true" legalOwner="true" lawfulSeller="false"/>
+		</Transaction>
+		<Transaction>
+			<Details>
+				<TransactionDetail>
+					<MetalWeight lbs="1" oz="15"/>
+					<MetalTypeForm>COPPER-INSULATED_WIRE</MetalTypeForm>
+				</TransactionDetail>
+			</Details>
+			<Seller>
+				<Identification idt="DL" issuer="TX" idn="6789065"/>
+				<Business>
+					<Name>ABC Metals</Name>
+				</Business>
+				<Name l="Garcia" f="Jose" m=""/>
+				<Address>
+					<Street>1220 plains</Street>
+					<City>Austin</City>
+					<State>TX</State>
+					<Zip>78731</Zip>
+					<County>TRAVIS</County>
+				</Address>
+			</Seller>
+			<CertificateId>100000</CertificateId>
+			<SaleDate>2009-02-10</SaleDate>
+			<DealerInvoice>INV0003</DealerInvoice>
+			<DeliveryMethod>Walk</DeliveryMethod>
+			<Agreement signed="true" legalOwner="true" lawfulSeller="false"/>
+		</Transaction>
+		<Transaction>
+			<Details>
+				<TransactionDetail>
+					<MetalWeight lbs="2"/>
+					<MetalTypeForm>ALUMINUM-AUTO_TRANSMISSION</MetalTypeForm>
+					<HasTradeLicense>true</HasTradeLicense>
+					<IsExplosive>true</IsExplosive>
+					<MetalDescription>Example of IsExplosive</MetalDescription>
+				</TransactionDetail>
+			</Details>
+			<Seller>
+				<Identification idt="DL" issuer="TX" idn="13245678"/>
+				<Business>
+					<Name>JD Metals</Name>
+				</Business>
+				<Name l="Doe" f="John" m=""/>
+				<Address>
+					<Street>123 Test Drive</Street>
+					<City>Austin</City>
+					<State>TX</State>
+					<Zip>78731</Zip>
+					<County>TRAVIS</County>
+				</Address>
+				<Vehicle>
+					<Plate plateNo="ABC123" issuer="TX"/>
+					<TypeMakeModel>AUTO-FORD-F15</TypeMakeModel>
+					<Color>BGE</Color>
+					<IsModelExist>true</IsModelExist>
+				</Vehicle>
+			</Seller>
+			<CertificateId>100000</CertificateId>
+			<SaleDate>2009-02-10</SaleDate>
+			<DealerInvoice>INV0004</DealerInvoice>
+			<IsRejected>true</IsRejected>
+			<DeliveryMethod>Automobile</DeliveryMethod>
+			<Agreement signed="true" legalOwner="true" lawfulSeller="false"/>
+		</Transaction>
+	</Transactions>
+</TransactionBatch>

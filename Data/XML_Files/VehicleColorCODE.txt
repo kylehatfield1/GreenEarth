@@ -1,0 +1,34 @@
+Vehicle Color CODE                          Vehicle Color LITERAL
+______________________________
+AME                            AMETHYST(PURPLE)
+BGE                            BEIGE
+BLK                            BLACK
+BLU                            BLUE
+BRO                            BROWN
+BRZ                            BRONZE
+CAM                            CAMOUFLAGE
+COM                            CHROME
+CPR                            COPPER
+CRM                            CREAM
+DBL                            BLUE, DARK
+DGR                            GREEN, DARK
+GLD                            GOLD
+GRN                            GREEN
+GRY                            GRAY
+LAV                            LAVENDER(PURPLE)
+LBL                            BLUE, LIGHT
+LGR                            GREEN, LIGHT
+MAR                            MAROON/BURGUNDY(PURPLE)
+MUL/COL                        MULTICOLORED
+MVE                            MAUVE(PURPLE)
+ONG                            ORANGE
+PLE                            PURPLE
+PNK                            PINK
+RED                            RED
+SIL                            SILVER(ALUMINUM)
+TAN                            TAN
+TEA                            TEAL(GREEN)
+TPE                            TAUPE(BROWN)
+TRQ                            TURQUOISE(BLUE)
+WHI                            WHITE
+YEL                            YELLOW

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema 
+	id="Enumerations" 
+	elementFormDefault="qualified" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" 
+	vc:minVersion="1.1"
+>
+	<xs:include schemaLocation="Transaction.xsd"/>
+	<xs:element name="TransactionBatch" nillable="true" type="TransactionBatch"/>
+	<xs:complexType name="TransactionBatch">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="1" name="Transactions" type="ArrayOfTransaction"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ArrayOfTransaction">
+		<xs:sequence>
+			<xs:element minOccurs="1" maxOccurs="unbounded" name="Transaction" nillable="true" type="Transaction"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

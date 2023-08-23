@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Enumerations"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="VehicleColorCode">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="" />
+      <xs:enumeration value="UNK" />
+      <xs:enumeration value="AME" />
+      <xs:enumeration value="BGE" />
+      <xs:enumeration value="BLK" />
+      <xs:enumeration value="BLU" />
+      <xs:enumeration value="BRO" />
+      <xs:enumeration value="BRZ" />
+      <xs:enumeration value="CAM" />
+      <xs:enumeration value="COM" />
+      <xs:enumeration value="CPR" />
+      <xs:enumeration value="CRM" />
+      <xs:enumeration value="DBL" />
+      <xs:enumeration value="DGR" />
+      <xs:enumeration value="GLD" />
+      <xs:enumeration value="GRN" />
+      <xs:enumeration value="GRY" />
+      <xs:enumeration value="LAV" />
+      <xs:enumeration value="LBL" />
+      <xs:enumeration value="LGR" />
+      <xs:enumeration value="MAR" />
+      <xs:enumeration value="MUL/COL" />
+      <xs:enumeration value="MVE" />
+      <xs:enumeration value="ONG" />
+      <xs:enumeration value="PLE" />
+      <xs:enumeration value="PNK" />
+      <xs:enumeration value="RED" />
+      <xs:enumeration value="SIL" />
+      <xs:enumeration value="TAN" />
+      <xs:enumeration value="TEA" />
+      <xs:enumeration value="TPE" />
+      <xs:enumeration value="TRQ" />
+      <xs:enumeration value="WHI" />
+      <xs:enumeration value="YEL" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
